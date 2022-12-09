@@ -2,6 +2,7 @@ import React from "react";
 import "./FooterStyle.css";
 import {
   FaFacebook,
+  FaGithub,
   FaHome,
   FaInstagram,
   FaLinkedin,
@@ -19,8 +20,7 @@ export const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p>202, Nandini Bellus</p>
-              <p>Manjri BK, Pune.</p>
+              <p>Pune Maharashtra</p>
             </div>
           </div>
           <div className="phone">
@@ -43,10 +43,14 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="rite-side">
+        <div className="right-side">
           <p>About me</p>
           <div className="social">
             <FaLinkedin
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+            <FaGithub
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
             />
@@ -64,6 +68,11 @@ export const Footer = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="copy">
+        <span className="bar"></span>
+        created by <span>Mansi Vakte</span> |© Copyright 2022-2023, All Rights
+        Reserved.!
       </div>
     </div>
   );
