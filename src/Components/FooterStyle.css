@@ -32,6 +32,9 @@
     padding: 1rem;
 
 }
+h3{
+    color: #eee;
+}
 .social{
     margin-top: 1rem;
 }
@@ -60,6 +63,13 @@ p{
     display: block;
 
 }
+/* .social{font-size: 1.6rem;
+    line-height: 2rem;
+    width: 2rem;height: 2rem;
+    background: var(--mediumteal);
+    color: #eee;
+    text-align: center;
+} */
 
 @media screen and (max-width:640px) {
     .footer-container{

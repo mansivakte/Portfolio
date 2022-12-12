@@ -44,11 +44,16 @@ export const Footer = () => {
         </div>
 
         <div className="right-side">
-          <p>About me</p>
+          <h3 className="h3">Let's get social</h3>
+          <p>
+            Follow my online fan page on Facebook and profiles on Twitter,
+            GitHub, Linkedin and Instagram.
+          </p>
           <div className="social">
             <FaLinkedin
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
+              href="https://github.com/mansivakte/Portfolio"
             />
             <FaGithub
               size={30}
@@ -66,6 +71,12 @@ export const Footer = () => {
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
             />
+            {/* <div className="social">
+              <i className="fab fa-facebook"></i>
+              <i className="fab fa-instagram"></i>
+              <i className="fab fa-twitter"></i>
+              <i className="fab fa-youtube"></i>
+            </div> */}
           </div>
         </div>
       </div>

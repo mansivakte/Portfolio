@@ -11,7 +11,7 @@ const Main = () => {
       </div>
       <div className="content">
         <p>HI, I'M A DEVELOPER</p>
-        <h1>React Developer.</h1>
+        <h1>Reactjs Developer.</h1>
         <div>
           <Link to="/project" className="btn">
             Project
